@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./../css/style.css">
+    <script src="./../scripts/base.js" defer></script>
+    <script src="./../scripts/third.js" defer></script>
+    <title>Гадания для мужчин на удачу</title>
+</head>
+<body>
+    <header>
+        <nav id="head_nav">
+            <a href="men.html" class="logo">
+                <img src="./../images/logo.jpg" alt="">
+            </a>
+            
+            <a class="link" href="">Для холостых</a>
+            <a class="link" href="">В отношениях</a>
+
+            <a class="link" href="./../login.html" class="room">
+                Войти в личную комнату
+            </a>
+
+            <button class="burger" >
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <nav class="mobile_menu">
+        <a href="" class="mobile_link">Для холостых</в>
+        <a href="" class="mobile_link">В отношениях</a>
+        <a href="./../login.html" class="mobile_link">Войти в личную комнату</a>
+    </nav>
+
+    <div class="test_block">
+
+        <div class="main_panel">
+            <div class="panel">
+                <a href="men.html" class="panel_link top ">Всё о гаданиях</a>
+                <a href="men_instruction.html" class="panel_link top">Инструкция</a>
+            </div>
+           
+
+            <div class="panel">
+                <a href="first_men_test.html" class="panel_link">
+                    Узнать себя
+                </a>
+                <a href="second_men_test.html" class="panel_link">
+                    Погадать на удачу
+                </a>
+                <a href="third_men_test.html" class="panel_link active">
+                    Где встретить судьбу
+                </a>
+            </div>
+
+            <div class="panel">
+                <a href="men_acquaintances.html" class="panel_link end">Знакомства</a>
+                <a href="men_clubs.html" class="panel_link end">Клубы и сообщества</a>
+            </div>
+            
+        </div>
+
+        <details class="main_spoiler">
+            <summary><span>Где встретить судьбу</span></summary>
+                <a href="men.html" class="spoiler_link top blue">Всё о гаданиях</a>
+                <a href="men_instruction.html" class="spoiler_link top blue">Инструкция</a>
+
+                <a href="first_men_test.html" class="spoiler_link red">Узнать себя</a>
+                <a href="second_men_test.html" class="spoiler_link red">Погадать на удачу</a>
+                <a href="third_men_test.html" class="spoiler_link red active">Где встретить судьбу</a>
+
+                <a href="men_acquaintances.html" class="spoiler_link bottom green">Знакомства</a>
+                <a href="men_clubs.html" class="spoiler_link green">Клубы и сообщества</a>
+        </details>
+
+        <div class="warning">
+            Важный момент: второй раз за сутки это гадание запрешено!
+            <a class="main_button" href="men.html">Вернуться</a>
+        </div>
+
+        <form action="men_loader.html" id="third_test">
+            <h2 class="question">Выберите своё состояние разума</h2>
+            <div class="flex_block">
+
+                <div class="input">
+                    <input type="radio" id="q1" value="" onclick="removeCheck(this)">
+                    <label for="q1"><img src="./../images/state1.jpg" alt=""></label>
+                </div>
+
+                <div class="input">
+                    <input type="radio" id="q2" value="" onclick="removeCheck(this)">
+                    <label for="q2"><img src="./../images/state2.jpg" alt=""></label>
+                    
+                </div>
+
+                <div class="input">
+                    <input type="radio" id="q3" value="" onclick="removeCheck(this)">
+                    <label for="q3"><img src="./../images/state3.jpg" alt=""></label>
+                </div>
+
+            </div>
+            
+            <input class="main_button" type="reset" name="" id="">
+            <button class="main_button">Узнать результат</button>
+        </form>
+       
+    </div>
+
+    <footer>
+        <div class="head">
+            <img src="./../images/logo.jpg" width="50px" alt="" class="logo">
+            <h4>Авторские права 2024 Код Boxx</h4>
+            <p>Все права защищены</p>
+        </div>
+        <nav>
+            <a class="link" href="">О сайте</a>
+            <a class="link" href="">Контакты</a>
+            <a class="link" href="">О нас</a>
+            <a class="link" href="">Партнеры</a>
+            <a class="link" href="">Условия использования</a>
+            <a class="link" href="">Все гадания</a>
+            <a class="link" href="">Политика конфиденциальности</a>
+        </nav>
+    </footer>
+    
+</body>
+</html>

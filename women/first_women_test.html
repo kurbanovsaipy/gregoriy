@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./../css/style.css">
+    <script src="./../scripts/firstTest.js" defer></script>
+    <script src="./../scripts/base.js" defer></script>
+    <title>Гадания на удачу для женщины</title>
+</head>
+<body>
+    <header>
+        <nav id="head_nav">
+            <a href="women.html" class="logo">
+                <img src="./../images/logo.jpg" alt="">
+            </a>
+           
+            <a class="link" href="">Для свободных</a>
+            <a class="link" href="">В отношениях</a>
+
+
+            <a class="link" href="./../login.html" class="room">
+                Войти в личную комнату
+            </a>
+            <button class="burger">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <nav class="mobile_menu">
+        <a href="" class="mobile_link">Для свободных</в>
+        <a href="" class="mobile_link">В отношениях</в>    
+        <a href="./../login.html" class="mobile_link">Войти в личную комнату</a>
+    </nav>
+
+    <div class="test_block women">
+
+        <div class="main_panel">
+            <div class="panel">
+                <a href="women.html" class="panel_link top">Всё о гаданиях</a>
+                <a href="women_instruction.html" class="panel_link top">Инструкция</a>
+            </div>
+
+            <div class="panel">
+                <a href="first_women_test.html" class="panel_link active">
+                    Узнать себя
+                </a>
+                <a href="second_women_test.html" class="panel_link">
+                    Погадать на удачу
+                </a>
+                <a href="third_women_test.html" class="panel_link">
+                    Где встретить судьбу
+                </a>
+            </div>
+
+            <div class="panel">
+                <a href="women_acquaintances.html" class="panel_link end">Знакомства</a>
+                <a href="women_clubs.html" class="panel_link end">Клубы и сообщества</a>
+            </div>
+            
+        </div>
+
+        <details class="main_spoiler">
+            <summary><span>Узнать себя</span></summary>
+                <a href="women.html" class="spoiler_link top blue">Всё о гаданиях</a>
+                <a href="women_instruction.html" class="spoiler_link top blue">Инструкция</a>
+                
+                <a href="first_women_test.html" class="spoiler_link red active">Узнать себя</a>
+                <a href="second_women_test.html" class="spoiler_link red">Погадать на удачу</a>
+                <a href="third_women_test.html" class="spoiler_link red">Где встретить судьбу</a>
+                <a href="women_acquaintances.html" class="spoiler_link bottom green">Знакомства</a>
+                <a href="women_clubs.html" class="spoiler_link green">Клубы и сообщества</a>
+        </details>
+        <div class="warning">
+            Важный момент: второй раз за сутки это гадание запрешено!
+            <a class="main_button" href="women.html">Вернуться</a>
+        </div>
+
+        <form action="women_loader.html" id="first_test">
+            <h2 class="question">Какое описание себя вам больше подходит?</h2>
+            <div class="input">
+                <input type="radio" id="q1" value="Я лучший" onclick="removeCheck(this)">
+                <label for="q1">Я лучший!</label>
+            </div>
+            <div class="input">
+                <input type="radio" id="q2" value="Я средний" onclick="removeCheck(this)">
+                <label for="q2">Я средний</label>
+            </div>
+            <div class="input">
+                <input type="radio" id="q3" value="Меня никто не любит" onclick="removeCheck(this)">
+                <label for="q3">Меня никто не любит</label>
+            </div>
+            <p>Или укажите описание сами</p>
+            <textarea name="" id="" cols="30" rows="10" class="my_description"></textarea>
+            <input class="main_button" type="reset" name="" id="">
+            <button class="main_button" type="submit">Узнать результат</button>
+        </form>
+    </div>
+
+
+    <footer>
+        <div class="head">
+            <img src="./../images/logo.jpg" width="50px" alt="" class="logo">
+            <h4>Авторские права 2024 Код Boxx</h4>
+            <p>Все права защищены</p>
+        </div>
+        <nav>
+            <a class="link" href="">О сайте</a>
+            <a class="link" href="">Контакты</a>
+            <a class="link" href="">О нас</a>
+            <a class="link" href="">Партнеры</a>
+            <a class="link" href="">Условия использования</a>
+            <a class="link" href="">Все гадания</a>
+            <a class="link" href="">Политика конфиденциальности</a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
